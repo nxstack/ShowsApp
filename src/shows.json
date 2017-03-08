@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Friends",
+    "poster": "https://www.movieposter.com/posters/archive/main/52/MPW-26106",
+    "plot": "Follows the personal and professional lives of six 20 to 30-something-year-old friends living in Manhattan.",
+    "imdbRating": "9.0"
+  },
+  {
+    "title": "Game of Thrones",
+    "plot": "Nine noble families fight for control over the mythical lands of Westeros. Meanwhile, a forgotten race hell-bent on destruction returns after being dormant for thousands of years.",
+    "poster": "https://cdn.cloudpix.co/images/game-of-thrones/game-of-thrones-poster-eb4051280faa7b786d82613fc4909011-large-404463.jpg",
+    "imdbRating": "9.5"
+  },
+  {
+    "title": "Sherlock",
+    "plot": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+    "poster": "http://www.gbposters.com/media/catalog/product/cache/1/small_image/293x440/9df78eab33525d08d6e5fb8d27136e95/s/h/sherlock-bride-portrait-maxi-poster-1.16.jpg",
+    "imdbRating": "9.2"
+  }
+]
