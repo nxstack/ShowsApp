@@ -35,33 +35,31 @@ class Show extends React.Component {
   }
   constructor(props) {
     super(props);
-
     this.handleBtnClick = this.handleBtnClick.bind(this);
-
     this.state = {
-		  showIndex: this.props.showIndex
-		}
-	}
+      showIndex: this.props.showIndex
+    }
+  }
   handleBtnClick() {
-	  var totalShows = this.props.shows.length;
-		this.setState(function(prevState) {
-		  return {
-		    showIndex: (prevState.showIndex + 1) % totalShows
-		  };
-	  });
+    var totalShows = this.props.shows.length;
+    this.setState(function(prevState) {
+      return {
+        showIndex: (prevState.showIndex + 1) % totalShows
+      };
+    });
   }
   render() {
-		var show = this.props.shows[this.state.showIndex];
-
-		return (
-		  <div className="text-center">
-  			<Title showTitle={show.title} />
-  			<Poster showPoster={show.poster} />
-  			<ShowInfo showPlot={show.plot} showRating={show.imdbRating} />
-  			<button onClick={this.handleBtnClick}>Next Show</button>
-		  </div>
-		);
-	}
+    var show = this.props.shows[this.state.showIndex];
+	  
+    return (
+      <div className="text-center">
+  	<Title showTitle={show.title} />
+  	<Poster showPoster={show.poster} />
+  	<ShowInfo showPlot={show.plot} showRating={show.imdbRating} />
+  	<button onClick={this.handleBtnClick}>Next Show</button>
+      </div>
+    );
+  }
 };
 
 ReactDOM.render(
